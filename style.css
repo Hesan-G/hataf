@@ -1,6 +1,6 @@
 @font-face {
   font-family: "yekan";
-  src: url("../hataf/assets/font/BYekan.ttf") format("truetype");
+  src: url("assets/font/BYekan.ttf") format("truetype");
 }
 body {
   font-family: "yekan";
