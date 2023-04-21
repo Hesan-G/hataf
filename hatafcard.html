@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/68f9ecf54f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="fixed-bottom"><i class="fa-solid fa-bell fa-xl"></i></div>
+    <!-------------------------- hataf navbar -------------------------------->
+    <div class="container" id="navbar-hataf">
+        <nav class="navbar container fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/img/hataf-logo.png" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav d-flex me-auto">
+                        <!--------------------------------- dropdown-product --------------------------------->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" data-delay="4000">محصولات
+                            </a>
+                            <ul class="dropdown-menu product-item text-end">
+                                <div class="row">
+                                    <div class="col-6 first-col">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">درگاه پرداخت</h8>
+                                                    <p class="para-item">مهندسی شده برای فروش بیش‌تر</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">عیان</h8>
+                                                    <p class="para-item">احراز هویت واقعی خریدار</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">هاتف لینک</h8>
+                                                    <p class="para-item">
+                                                        لینک پرداخت در شبکه‌های اجتماعی
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">هاتف پلاس</h8>
+                                                    <p class="para-item">ابزار هوشمند سوددهی</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">تسهیم فردایی</h8>
+                                                    <p class="para-item">
+                                                        تقسیم و واریز مبلغ به شرکای تجاری
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </div>
+                                    <div class="col-6 second-col">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">هاتف کارت</h8>
+                                                    <p class="para-item">طلایی‌ترین کارتِ بانکی</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">تسهیم</h8>
+                                                    <p class="para-item">درگاه پرداخت اشتراکی</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">استرداد وجه</h8>
+                                                    <p class="para-item">
+                                                        مبلغ تراکنش را در لحظه برگشت بزنید
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <div>
+                                                    <h8 class="d-block">تسویه پیش از موعد </h8>
+                                                    <p class="para-item">
+                                                        دریافت موجودی قابل تسویه در سریع‌ترین زمان
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <!---------------------------------------------------------------------------------------------------------->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">تعرفه ها </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">توسعه دهندگان</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">تماس با ما</a>
+                        </li>
+                        <!----------------------------------------dropdown-bishtar  ---------------------------------------------->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" data-delay="4000">بیش تر
+                            </a>
+                            <ul class="dropdown-menu more-item text-end">
+                                <li><a class="dropdown-item" href="#">وبلاگ</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">دریافت شماره شبا</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">سوالات متداول</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">اپلیکیشن</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">هاتف بین</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!---------------------------------------------------------------------------------------------------------->
+                        <li class="nav-item">
+                            <a class="nav-link hataf-man" href="#">هاتف من</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!---------------------------------------------- first-row ---------------------------------------------------->
+    <div class="container introduction">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="top-text-one">
+                    <div class="d-flex flex-column">
+                        <span class="head-text">هاتف کارت</span>
+                        <span class="head-text">طلایی‌ترین کارتِ بانکی </span>
+                        <p class="main-text">دهاتف کارت یک کارتِ بانکی عضو شبکه‌‌‌ی شتاب و متصل به یک حساب بانکی است که از تمام ویژگی‌‌‌ها و امکانات یک حساب بانکی تمام عیار برخوردار است. هاتف کارت این امکان را برای کاربران خود فراهم می‌‌‌سازد تا از تعرفه‌‌‌ی کارمزد کم‌‌‌تر در روزهای عادی و کارمزد رایگان در سه‌‌‌شنبه‌‌‌های طلاییِ زرین‌‌‌پال بهره‌‌‌مند شوند.
+                    </div>
+                    <div class="sign-btn">
+                        <button type="button" class="btn signup-text">درخواست هاتف کارت</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 deposit">
+                <img src="assets/img/hatafcard .svg" alt="Image description" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------- second-row ---------------------------------------------------------->
+    <div class="container">
+        <div class="row">
+
+            <div class="col top-text">
+                <div class="row first-row">
+                    <div class="col property-line">
+                        <div class="property d-flex flex-row">
+                            <img src="assets/img/verifiedIcon.svg" alt="" width="50px" height="50px" />
+                            <p class="property-text">ویژگی‌های هاتف کارت</p>
+                        </div>
+                        <p class="main-text">
+                            زرین‌‌‌‌کارت یک راهکار اساسی برای کنترل سرمایه‌‌‌‌های در حال گردش است که با تسهیل و تسریع فرآیندهای مالی و تغییر مدل کارمزدی، نقش بسیار مهمی در توسعه‌‌‌‌ی کسب و کارها ایفا میکند.
+                        </p>
+                    </div>
+                    <div class="col property-line">
+                        <div class="property d-flex flex-row">
+                            <img src="assets/img/verifiedIcon.svg" alt="" width="50px" height="50px" />
+                            <p class="property-text">کاهش کارمزد</p>
+                        </div>
+                        <p class="main-text">
+                            در روزهای عادی هفته، کارمزد دارندگان هاتف کارت به‌صورت نیم درصد تا سقف ۲۰۰۰ تومان است.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex flex-row property">
+                            <img src="assets/img/splite.svg" alt="" width="50px" height="50px" />
+                            <p class="property-text">کارمزد رایگان</p>
+                        </div>
+                        <p class="main-text">
+                            در سه‌شنبه‌های طلایی هاتف پال، تسویه‌حساب به مقصد هاتف کارت بدون کسر کارمزد و کاملا رایگان انجام می‌شود.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col property-line">
+                        <div class="d-flex flex-row property">
+                            <img src="assets/img/support.svg" alt="" width="50px" height="50px" />
+                            <p class="property-text">عضو شبکه‌ بانکی کشور</p>
+                        </div>
+                        <p class="main-text for-line">
+                            به واسطه‌ی درخواست و انتخاب پذیرندگان، هاتف کارت به عنوان عضو رسمی شبکه‌ی بانکی کشور، صادر می‌شود.
+                        </p>
+                    </div>
+                    <div class="col property-line">
+                        <div class="d-flex flex-row property">
+                            <img src="assets/img/support.svg" alt="" width="50px" height="50px" />
+                            <p class="property-text">سهولت انتقال وجه</p>
+                        </div>
+                        <p class="main-text for-line">
+                            هاتف کارت طبق قوانین بانک مرکزی کشور، تمام ویژگی‌ها و امکانات یک حساب بانکی رایج را در اختیار کاربران خود قرار می‌دهد.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex flex-row property">
+                            <img src="assets/img/support.svg" alt="" width="50px" height="50px" />
+                            <p class="property-text">جامعیتِ استفاده</p>
+                        </div>
+                        <p class="main-text">
+                            هاتف کارت تمام امکانات کارت‌های بانکی، مانند پرداخت اینترنتی، پرداخت از طریق دستگاه‌های خودپرداز، انتقال و برداشت وجه را دارد.
+                        </p>
+                    </div>
+                </div>
+                <!-- -------------------------- -->
+         
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container">
+        <div class="row section-family mt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-part">
+                <p class="topic-title head-text">تعرفه‌ی هاتف کارت</p>
+                <p class="describe main-text ">با داشتن زرین‌کارت، کارمزد تراکنش‌ها در روزهای عادی هفته، به نیم درصد و تا سقف ۲۰۰۰ تومان کاهش می‌یابد و در صورت تسویه‌حساب به مقصد زرین‌کارت در سه‌شنبه‌های طلاییِ زرین‌پال، کارمزد تراکنش‌ها کاملا رایگان و صفر در نظر گرفته می‌شود. همچنین کاربران جدید می‌توانند در ماه اول عضویت در هاتف پال، از تمام سرویس‌ها و خدمات ارائه شده، به صورت کاملا رایگان بهره‌مند شوند.</p>
+                <button type="button" class="btn know-text">
+                    بیش‌تر بدانید.<i class="fa-solid fa-arrow-left"></i>
+                </button>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="tashim-logo"> <img src="assets/img/tashimLogo.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="pt-5">
+                    <p class="title-heading head-text">هاتف کارت، چه مزیتی برای کسب و کارها دارد؟</p>
+                    <p class="describe main-text"> هاتف کارت، با تسریع روند تسویه‌حساب و کاهش درصد کارمزد، درست شبیه یک ابرقهرمان عمل می‌کند. به این صورت‌که با کاهش کارمزد تراکنش‌های روزانه به نیم درصد با سقف ۲۰۰۰ تومانی، به نقدینگی و سوددهیِ هدفمند صاحبین کسب و کارها کمک می‌کند.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="pt-5">
+                    <p class="title-heading head-text">کارمزد رایگان</p>
+                    <p class="describe main-text"> کاربران زرین‌پال می‌توانند هنگام تکمیل فرآیند تسویه‌حساب به زرین‌کارت خود، از قابلیت سه‌شنبه‌های طلایی استفاده کنند، که در این حالت، کارمزد تراکنش‌ها کاملا رایگان و بدون کسر کارمزد در نظر گرفته می‌شود.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <!--  -->
+    <div class="container">
+    <div class="row active-box-using " id="firstSection">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ta-center  ">
+            <span class="one-step d-flex align-items-center">تا این لحظه بیش از</span>
+            <strong class="strong">۲۵.۰۰۰</strong>
+            <span class="two-step d-flex align-items-center">هاتف کارت در هاتف پال صادر شده است.</span>
+        </div>
+    </div>
+</div>
+    <!---------------------------------------- eighth-row --------------------------------------->
+    <div class="container d-flex flex-column family">
+        <span class="family-top-text">
+            به خانواده‌ی یک میلیونی هاتف‌پال بپیوندید.
+        </span>
+        <span class="family-middle-text">یک ماه رایگان، هدیه‌ی عضویت هاتف‌پال به شما
+        </span>
+        <div class="sign-btn">
+            <button type="button" class="btn signup-text">شروع کنید</button>
+        </div>
+    </div>
+    <!---------------------------------------- ninth-row -------------------------------------------------->
+    <div class="container support">
+        <div class="row">
+            <p>
+                <span class="support-text">پشتیبانی ۲۴ ساعته، ۷ روز هفته</span>
+                <span class="support-line"></span>
+                <span class="support-text"> تلفن پشتیبانی پذیرندگان : </span>
+                <span class="number"> ۴۱۲۳۹-۰۲۱</span>
+                <span class="support-line"></span>
+                <span class="support-text"> تلفن پشتیبانی خریداران : </span>
+                <span class="number"> ۴۵۶۲۸۰۰۰-۰۲۱ </span>
+                <a class="know-support" href="">درخواست پشتیبانی<i class="fa-solid fa-arrow-left"></i></a>
+            </p>
+        </div>
+    </div>
+    <!----------------------------------------------- tenth-row ------------------------------------------------->
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="foot-text">محصولات</h5>
+                    <ul class="nav flex-column foot">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">هاتف‌لینک</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">درگاه پرداخت اینترنتی</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">هاتف‌کارت</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">تسهیم</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">عیان</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">استرداد وجه</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">تسویه پیش از موعد
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">تسهیم فردایی</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="foot-text">آشنایی با هاتف‌پال</h5>
+                    <ul class="nav flex-column foot">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">تعرفه‌ها</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">درباره ما</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">سوالات متداول</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">همکاری در فروش</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="foot-text">ارتباط‌ بیشتر</h5>
+                    <ul class="nav flex-column foot">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">تماس با ما</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">قوانین و مقررات</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">حریم ‌خصوصی</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="foot-text">منابع</h5>
+                    <ul class="nav flex-column foot">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">دریافت شماره شبا</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">هاتف‌بین</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">توسعه‌دهندگان</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">وبلاگ</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">سنجش رضایتمندی</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <form>
+                        <h5 class="foot-text">هاتف‌پال در شبکه‌های اجتماعی:</h5>
+                        <img class="social-media" src="assets/img/instagram.svg" alt="" />
+                        <img class="social-media" src="assets/img/twitter.svg" width="40px" height="40px" alt="" />
+                        <img class="social-media" src="assets/img/telegram.svg" width="40px" height="40px" alt="" />
+                        <img class="social-media" src="assets/img/linkedin.svg" width="40px" height="40px" alt="" />
+                        <img class="social-media" src="assets/img/aparat.svg" width="40px" height="40px" alt="" />
+                    </form>
+                </div>
+            </div>
+
+            <p class="last">© ‌‌هاتف‌پال ۱۴۰۱-۱۳۸۹</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
