@@ -1034,3 +1034,108 @@ body {
   padding-top: 2px;
   line-height: 2;
 }
+.logoo{
+  border-radius: 50%;
+  width: 140px;
+  border-radius: 50%;
+  margin-right: 37px;
+ 
+}
+.sidepanel{
+  width: 223px;
+  height: 100%;
+  height: 732px;
+}
+.logo{
+  width: 139px;
+}
+/* portal-main (pm) */
+.nav-portal-main {
+  padding: 75px;
+  background-color: #400f85;
+  z-index: 999;
+  width: 100%;
+  /* box-sizing: content-box; */
+}
+
+.box-portal-main {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 885px;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+  font-size: 15px;
+  align-items: center;
+  /* width: 100%; */
+}
+.my-warning-portal-main {
+  height: 2%;
+  width: 2%;
+  color: red;
+  position: relative;
+  right: 10px;
+  font-size: 20px;
+  margin-left: 22px;
+}
+.portal-main-takmil {
+  padding: 120px 446px;
+  background-color: #e5e7e4;
+  z-index: 1001;
+  /* margin: -150px; */
+}
+
+.my-p-portal {
+  padding-right: 15px;
+}
+
+.btn-portal-main {
+  margin: 6px 20px 0px 0px;
+  padding: 3px 0px 0px 40px;
+}
+
+.subtitel-portal-main {
+  font-size: small;
+  align-items: flex-start;
+}
+
+.margin-portal-main-takmil {
+  margin: -180px -273px 39px -267px;
+  background-color: #f9fafa;
+  border-radius: 5px;
+  padding-bottom: 88px;
+}
+.ptext-portal-main-takmil {
+  /* margin-right: 20px; */
+  font-size: smaller;
+  margin-right: auto;
+  margin-top: 18px;
+  padding-left: 20px;
+
+}
+
+.col-pm-min {
+    /* margin: -10px -146px 43px 171px; */
+    padding: 8px;
+    background-color: #f9fafa;
+    border-radius: 10px;
+    width: 68%;
+    height: 100px;
+    /* height: 120%; */
+    margin-left: 50px;
+    /* text-align: center; */
+     /* padding: 88px 180px 5px 42px; */
+}
+
+.last-section {
+  margin: 27px -359px 6px -345px;
+  background-color: #f9fafa;
+  border-radius: 5px;
+  width: 266%;
+   /* padding-bottom: 88px; */
+}
+
+.ptext-portal-main-trakonesh{
+  /* margin-right: 20px; */
+  font-size: smaller;
+  margin-right: auto;
+}
